@@ -48,6 +48,7 @@ function clickEliminar(e) {
         nrItems();
     } else{
         item.classList.add('complete');
+        lista.appendChild(item);
     }
 }
 
